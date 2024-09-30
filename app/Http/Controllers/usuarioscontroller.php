@@ -15,4 +15,9 @@ class usuarioscontroller extends Controller
     {
         return view('registro');
     }
+
+    public function home()
+    {
+        return view('home');
+    }
 }
